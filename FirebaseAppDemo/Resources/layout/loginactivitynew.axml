@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorcyan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="#46CCBA"
+        android:textColor="@android:color/white"
+        android:padding="@dimen/padding_8dp"
+        android:text="@string/str_login"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/padding_16dp"
+        android:layout_marginRight="@dimen/padding_16dp"
+        android:layout_above="@+id/txtOR"
+        android:gravity="center_horizontal"
+        android:id="@+id/txtLogin" />
+    <TextView
+        android:background="@color/colorwhite"
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/padding_16dp"
+        android:layout_marginRight="@dimen/padding_16dp"
+        android:layout_above="@+id/txtLoginFacebook"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/padding_16dp"
+        android:id="@+id/txtHorizontalLine" />
+    <TextView
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@color/colorcyan"
+        android:padding="@dimen/padding_8dp"
+        android:text="OR"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/padding_16dp"
+        android:layout_marginRight="@dimen/padding_16dp"
+        android:layout_above="@+id/txtLoginFacebook"
+        android:id="@+id/txtOR" />
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/txtLoginFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_16dp"
+        android:layout_marginLeft="@dimen/padding_16dp"
+        android:layout_marginRight="@dimen/padding_16dp"
+        android:layout_above="@+id/txtLoginGoogle"
+        android:layout_gravity="center_horizontal" />
+<!--<TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="#3F5790"
+        android:textColor="@android:color/white"
+        android:padding="@dimen/padding_8dp"
+        android:text="@string/str_login_facebook"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/padding_16dp"
+        android:layout_marginRight="@dimen/padding_16dp"
+        android:layout_above="@+id/txtLoginGoogle"
+        android:gravity="center_horizontal"
+        android:id="@+id/txtLoginFacebook" />-->
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="@color/colororange"
+        android:padding="@dimen/padding_8dp"
+        android:textColor="@android:color/white"
+        android:text="@string/str_login_google"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/padding_5dp"
+        android:layout_marginBottom="@dimen/padding_16dp"
+        android:layout_marginLeft="@dimen/padding_16dp"
+        android:layout_marginRight="@dimen/padding_16dp"
+        android:gravity="center_horizontal"
+        android:layout_above="@+id/txtRegister"
+        android:id="@+id/txtLoginGoogle" />
+    <TextView
+        android:id="@+id/txtRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/padding_16dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/str_login_register"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

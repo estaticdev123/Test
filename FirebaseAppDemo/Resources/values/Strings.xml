@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">TestAudition</string>
+	<string name="str_login_facebook">Login via facebook</string>
+	<string name="str_login_google">Login via google</string>
+	<string name="str_login">Login</string>
+	<string name="str_register">Register</string>
+	<string name="str_login_lan">Har du ikke en konto? Register deg.</string>
+	<string name="str_login_register">Do not have an account? Sign up</string>
+	<string name="str_alert_logout">ARE YOU SURE YOU WANT TO LOG OUT?</string>
+	<string name="str_drawer_open">open</string>
+	<string name="str_drawer_close">close</string>
+
+
+
+    <string name="facebook_app_id">151388375569994</string>
+<string name="fb_login_protocol_scheme">fb151388375569994</string>
+
+
+    <string name="str_your_location">Your location</string>
+    <string name="str_select_no_of_hours">SELECT NUMBER OF HOURS(max 4 hrs)</string>
+    <string name="str_sunday">Sun</string>
+    <string name="str_monday">Mon</string>
+    <string name="str_tuesday">Tue</string>
+    <string name="str_wednesday">Wed</string>
+    <string name="str_thursday">Thu</string>
+    <string name="str_friday">Fri</string>
+    <string name="str_saturday">Sat</string>
+
+    
+    <string name="str_select_employee">Select Employee</string>
+
+
+
+<string name="str_summary">Summary</string>
+    <string name="str_euro">EURO 75.00</string>
+    <string name="str_employee">Employee</string>
+    <string name="str_working_time">Working time</string>
+    <string name="str_customer_name">Customer name</string>
+    <string name="str_email">Email</string>
+    <string name="str_mobile">Mobile</string>
+    <string name="str_working_location">Working location</string>
+    <string name="str_book_now">Book Now</string>
+    <string name="str_net_price">Net price</string>
+    <string name="str_vat_25">VAT 25%</string>
+    <string name="str_total">Total</string>
+
+ </resources>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<color name="colorcyan">#43C6BA</color>
+	<color name="colorwhite">#FFFFFF</color>
+	<color name="colororange">#D74131</color>
+	<color name="colorPrimary">#3F51B5</color>
+	<color name="colorPrimaryDark">#303F9F</color>
+	<color name="colorAccent">#FF4081</color>
+	<color name="colorBlack">#000000</color>
+	<color name="colorGray">#c1c1c1</color>
+	<color name="colorGrayDark">#969191</color>
+	<color name="colorGrayLight">#c4e4e1e1</color>
+	<color name="colorGreenLight">#de4bdec8</color>
+	<color name="colorRawBack">#DEDEDE</color>
+	<color name="colorBtnBack">#46CCBA</color>
+	<color name="colorText">#ACACAC</color>
+	<color name="colorTextHint">#A3B9BF</color>
+	<color name="colorTextLogoutBack">#F8F8F8</color>
+	<color name="colorBack">#F8F8F9</color>
+</resources>

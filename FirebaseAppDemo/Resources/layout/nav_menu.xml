@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_calander"
+            android:title="Calendar"
+            android:icon="@drawable/ic_calandernew" />
+        <item
+            android:id="@+id/nav_reservation"
+            android:title="Reservations"
+            android:icon="@drawable/ic_reservation" />
+    </group>
+    <item>
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Log out"
+                android:icon="@drawable/ic_logout" />
+        </menu>
+    </item>
+</menu>

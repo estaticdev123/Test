@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<style name="MyTheme" parent="MyTheme.Base">
+	</style>
+	<style name="MyTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="colorPrimary">#FFFFFF</item>
+		<item name="colorAccent">#FFFFFF</item>
+		<item name="colorPrimaryDark">#FFFFFF</item>
+		<item name="windowActionModeOverlay">true</item>
+	</style>
+	<style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="windowNoTitle">true</item>
+		<item name="windowActionBar">false</item>
+		<item name="drawerArrowStyle">@style/MyDrawerArrowStyle</item>
+	</style>
+	<style name="MyDrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+		<item name="color">@color/colorcyan</item>
+		<item name="spinBars">true</item>
+	</style>
+
+
+     <style name="TextLabel" parent="TextAppearance.AppCompat">
+    <!-- Hint color and label color in FALSE state -->
+    <item name="android:textColorHint">@color/colorwhite</item> 
+   
+    <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+    <item name="colorAccent">@color/colorwhite</item>
+    <item name="colorControlNormal">@color/colorwhite</item>
+    <item name="colorControlActivated">@color/colorwhite</item>
+ </style>
+
+  <style name="Base.Widget.Design.TabLayout" parent="android:Widget">
+        <item name="tabBackground">@drawable/tab_selector</item>
+        <item name="tabIndicatorColor">#ff00ff</item>
+        <item name="tabIndicatorHeight">0dp</item>
+    </style>
+</resources>
